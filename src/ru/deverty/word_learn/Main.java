@@ -70,6 +70,7 @@ public class Main {
             else
                 Print(ANSI_RED + allWords.get(word).toUpperCase() + ANSI_RESET);
             Print(SPLITTER);
+            scanner.nextLine();
         }
         Print("(" + correct + " / " + words.length + ")\n");
         scanner.nextLine();

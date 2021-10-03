@@ -44,7 +44,7 @@ public class Main {
                     flag = true;
                 else if (IsNumeric(readValue))
                 {
-                    wordCount = Integer.valueOf(readValue);
+                    wordCount = Integer.parseInt(readValue);
                     Print(SPLITTER);
                 }
 

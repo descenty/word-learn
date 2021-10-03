@@ -1,1 +1,0 @@
-java -jar word_learn.jar

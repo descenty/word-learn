@@ -35,7 +35,6 @@ state exams;государственные экзамены
 social-economic;социально-экономический 
 professional courses;профессиональные курсы 
 discipline;дисциплина 
-final exams;выпускные экзамены 
 special courses;специальные курсы 
 final;итоговый 
 a degree;степень 
@@ -51,15 +50,15 @@ higher education;высшее образование
 compulsory education;обязательное образование 
 extramural and evening courses;заочные и вечерние курсы
 state-funded places;бюджетные места
-Bachelor’s degree;степень бакалавра
+Bachelor's degree;степень бакалавра
 vocational training;профессиональная подготовка
-Master’s degree;степень магистра 
+Master's degree;степень магистра 
 a thesis;дипломная работа
 many-sided education;многогранное образование 
 the system of state scholarships and grants;система государственных стипендий и грантов
 dormitory;общежитие
 applicant;абитуриент
-to educate;образовывать 
+to educate;образовывать
 at least;по крайней мере
 to provide an education;предоставлять обучение 
 to award;присуждать

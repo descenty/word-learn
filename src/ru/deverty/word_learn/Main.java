@@ -61,7 +61,7 @@ public class Main {
         for (String word : words)
         {
             System.out.print(word + " : ");
-            answer = scanner.next().toLowerCase();
+            answer = scanner.nextLine().toLowerCase().trim();
             if (answer.equals(allWords.get(word)))
             {
                 Print(ANSI_GREEN + "Правильно!" + ANSI_RESET);
@@ -70,7 +70,6 @@ public class Main {
             else
                 Print(ANSI_RED + allWords.get(word).toUpperCase() + ANSI_RESET);
             Print(SPLITTER);
-            scanner.nextLine();
         }
         Print("(" + correct + " / " + words.length + ")\n");
         scanner.nextLine();
@@ -143,7 +142,7 @@ public class Main {
         for (String value : wordsData)
         {
             String[] words2 = value.split(";");
-            allWords.put(words2[0].toLowerCase(), words2[1].toLowerCase());
+            allWords.put(words2[0].toLowerCase().trim(), words2[1].toLowerCase().trim());
         }
         String[] settingsData = ReadFile(settingsPath);
         if (settingsData.length == 0)

@@ -72,7 +72,6 @@ public class Main {
             Print(SPLITTER);
         }
         Print("(" + correct + " / " + words.length + ")\n");
-        scanner.nextLine();
     }
 
     private static void Print(String caption)

@@ -33,27 +33,24 @@ public class Main {
         boolean flag = false;
         while (!flag)
         {
+            Collections.shuffle(leftWords);
             int wordCount = Integer.MAX_VALUE;
             String readValue;
             while (!flag && (wordCount > allWords.size() || wordCount <= 0))
             {
-
                 Print("Напишите количество слов (1 - " + allWords.size() + ')' + " (f - для выхода)");
                 readValue = scanner.nextLine();
                 if (readValue.equals("f"))
                     flag = true;
                 else if (IsNumeric(readValue))
                 {
-                    wordCount = Integer.parseInt(readValue);
+                    wordCount = Integer.valueOf(readValue);
                     Print(SPLITTER);
                 }
 
             }
             if (!flag)
-            {
-                leftWords.subList(0, wordCount);
-                Game(leftWords.toArray(new String[0]));
-            }
+                Game(leftWords.subList(0, wordCount).toArray(new String[0]));
         }
     }
 
